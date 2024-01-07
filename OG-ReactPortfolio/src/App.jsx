@@ -1,8 +1,11 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Nav from "./nav/Nav.jsx"
 
 const App = () =>{
-  return 
-    <div className="App">App</div>;
+  return <>
+    <Nav />
+    </>;
 };
 
 export default App
