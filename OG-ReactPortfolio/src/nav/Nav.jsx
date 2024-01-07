@@ -46,7 +46,7 @@ export default function Nav() {
     return navClass === getNavPositionClass;
   };
 
-  const renderNavLink = (to, imgSrc, altText, navClass) =>{
+  const renderNavLink = (to, imgSrc, altText, navClass) => {
     const isCurrent = isCurrentPage(navClass);
     const linkClass = isCurrent ? "nav-link current" :
     "nav-link";
@@ -54,7 +54,7 @@ export default function Nav() {
     return (
       <Link to={to} className={linkClass}>
       <img src={imgSrc} alt={altText}/>
-      {isCurrent && <h1 className="page-title">{pageTitle}</h1>}
+      {isCurrent && <h1 className="page-title">{PageTitle}</h1>}
       </Link>
     );
   };
@@ -68,22 +68,22 @@ export default function Nav() {
         "nav-about"
       )}
       {renderNavLink(
-        "/",
-        astronautHelmet,
-        "astronaut helmet icon",
-        "nav-about"
+        "/skills",
+        deadEye,
+        "deadEye  icon",
+        "nav-skills"
       )}
       {renderNavLink(
-        "/",
-        astronautHelmet,
-        "astronaut helmet icon",
-        "nav-about"
+        "/projects",
+        stack,
+        "stack icon",
+        "nav-projects"
       )}
       {renderNavLink(
-        "/",
-        astronautHelmet,
-        "astronaut helmet icon",
-        "nav-about"
+        "/contact",
+        envelope,
+        "envelope icon",
+        "nav-contact"
       )}
     </nav>
   );
