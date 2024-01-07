@@ -48,16 +48,19 @@ export default function Nav() {
 
   const renderNavLink = (to, imgSrc, altText, navClass) => {
     const isCurrent = isCurrentPage(navClass);
-    const linkClass = isCurrent ? "nav-link current" :
-    "nav-link";
-
+    const linkClass = isCurrent ? "nav-link current" : "nav-link";
+  
     return (
       <Link to={to} className={linkClass}>
-      <img src={imgSrc} alt={altText}/>
-      {isCurrent && <h1 className="page-title">{PageTitle}</h1>}
+        <div className="icon-title-wrapper">
+          <img src={imgSrc} alt={altText} />
+          {isCurrent && <h1 className="page-title">{PageTitle}</h1>}
+        </div>
       </Link>
     );
   };
+  
+  
 
   return (
     <nav className={`nav ${NavPositionClass}`}>
