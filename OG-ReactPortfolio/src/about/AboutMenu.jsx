@@ -12,7 +12,7 @@ export default class AboutMenu extends Component {
     super(props);
     this.state = {
       activeMenuItem: 1,
-      activeMenuItem: 1,
+      activeSubheading: 1,
     };
   }
 
@@ -55,7 +55,7 @@ export default class AboutMenu extends Component {
           <img src={activeMenuIcon} alt={activeMenuTitle} className="icon"/>
           <h3>{activeMenuTitle}</h3>
         </div>
-      {subheadings.map((subheading, index) => {
+      {subheadings.map((subheading, index) => (
         <AboutSubheading 
         key={index}
         title={subheading.title}
@@ -64,7 +64,7 @@ export default class AboutMenu extends Component {
         onClick={() => this.handleSubheadingClick(index + 1)}
         menuItem={activeMenuItem}
         />
-      })}
+      ))}
     </div>
     </>
       );

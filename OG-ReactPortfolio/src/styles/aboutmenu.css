@@ -1,0 +1,36 @@
+.menu {
+    width: 19rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 60%;
+    transform: translateY(-60%);
+    left: 10vw;
+}
+
+.item {
+    height: 3.7rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 1rem;   
+    padding-right: 2.5rem;
+}
+
+.item.active.title {
+    font-size: 1.5rem;
+}
+
+.sub-container {
+    width: 18.5rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 32%;
+    right: 10vw;
+    cursor: pointer;
+}
