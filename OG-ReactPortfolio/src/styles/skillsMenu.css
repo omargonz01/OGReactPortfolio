@@ -1,3 +1,92 @@
+.skill-menu {
+    width: 31.2rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    right: 15vh;
+    align-items: flex-end;
+}
+
+.skill-item {
+    height: 3.7rem;
+    width: 50%;
+    display: flex;
+    position: relateive;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.skill-tite {
+    font-size: 1rem;
+    padding-right: 4.5rem;
+
+}
+
+.skill-item.activeSkill .skill-title {
+    font-size: 1.5rem;
+}
+
+.activeSkill {
+    border-radius: var(--radius-left);
+    cursor: default;
+}
+
+.skill-item.activeSkill:nth-child(1) {
+    background: linear-gradient(270deg,#ffffff00, var(--puple) 70%);
+}
+
+.skill-item.activeSkill:nth-child(2) {
+    background: linear-gradient(270deg,#ffffff00, var(--blue) 70%);
+}
+
+.sill-icon {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 1.8rem;
+    left: 8rem;
+}
+
+.skill-sub-container-1 h3,
+.skill-sub-container-2 h3 {
+    position: relative;
+    margin: 0;
+}
+
+.menu {
+    dth: 1rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translateY(-25);
+    right: 15vh;
+}
+
+.skill-sub-container-1,
+.skill-sub-container-2 {
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+}
+
+.level-container {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.level-point {
+    width: 3rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+}
+
+.filled {
+    background: 
+}
+
 @media (max-width: 700px) {
     .menu {
         width: 10rem;
