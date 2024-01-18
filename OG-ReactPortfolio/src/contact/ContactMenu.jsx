@@ -38,11 +38,11 @@ export default function ContactMenu() {
       email: "Email: " + DOMPurify.sanitize(email),
       message: "Message: " + DOMPurify.sanitize(message),
     };
-    // come back and add your service id here and add to .env
-    const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    const userID = process.env.REACT_APP_EMAILJS_USER_ID;
 
+    const serviceID = import.meta.env.VITE_REACT_APP_EMAILJS_SERVICE_ID;
+    const templateID = import.meta.env.VITE_REACT_APP_EMAILJS_TEMPLATE_ID;    
+    const userID = import.meta.env.VITE_REACT_APP_EMAILJS_USER_ID;
+    
     emailjs
       .send(serviceID, templateID, sanitizedData, userID)
       .then((response) => {
