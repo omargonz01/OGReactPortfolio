@@ -37,7 +37,7 @@ const subheadingsData = {
     ],
     3: [
         {
-            title: "2023 Frond End Developer",
+            title: "2023 Full-Stack Developer",
             content: (
                 <>
                     <p>

@@ -4,38 +4,64 @@ import projectThree from "../assets/project-3.png";
 
 const projects = {
     1: {
-        title: "SoMe Platform",
+        title: "Real-time Crypto Price Alerts 🚀",
         image: projectOne,
         description: (
             <>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed officia aut quaerat tempora et tenetur incidunt dolorem dignissimos distinctio!
+                Developed a full stack web application (Degen Zone) for real-time crypto price alerts as a tool for crypto investors to take notes, create watch lists and see potential gains with the click of a button.
                 </p>
             </>
         ),
-        github: "https://github.com/omargonz01",
+        github: "https://github.com/omargonz01/Crypto-Price-Alert-Project",
         demo: "https://netlify.com",
     },
     2: {
-        title: "Productivity App",
+        title: "Your team vs. their team 💢",
         image: projectTwo,
         description: (
             <>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed officia aut quaerat tempora et tenetur incidunt dolorem dignissimos distinctio!
+                Amass a formidable team of Pokémon, as you’re about to face a rigorous challenge. Engage in strategic battles against other users’ teams to determine whose squad reigns supreme.
+                </p>
+            </>
+        ),
+        github: "https://github.com/omargonz01/Pokemon-App",
+        demo: "https://netlify.com",
+    },
+    3: {
+        title: "Minesweeper 💣",
+        image: projectThree,
+        description: (
+            <>
+                <p>
+                Re-built the early classic game of Minesweeper using HTML + CSS + JS. Try it out!
                 </p>
             </>
         ),
         github: "https://github.com/omargonz01",
         demo: "https://netlify.com",
     },
-    3: {
-        title: "Food delivery App",
+    4: {
+        title: "Stacker (game) 😊",
         image: projectThree,
         description: (
             <>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed officia aut quaerat tempora et tenetur incidunt dolorem dignissimos distinctio!
+                Was able to get a working version of another timeless classic game- STACKER. Go ahead.. try it :) Built this with basics: HTML + CSS + JS
+                </p>
+            </>
+        ),
+        github: "https://github.com/omargonz01",
+        demo: "https://netlify.com",
+    },
+    5: {
+        title: "Ducker (Frogger Game) 🦆",
+        image: projectThree,
+        description: (
+            <>
+                <p>
+                Re-created another classic game... FROGGER! - (made with JS + HTML + CSS) - Play as a little duck but beware, this duck does not swim and will die if it touches water... yup. he ded for real. Make sure to stay away from cars & buses. Instant death 🦆☠🥚
                 </p>
             </>
         ),
