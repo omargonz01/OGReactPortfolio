@@ -1,5 +1,5 @@
-import projectOne from "../assets/project-1.png";
-import projectTwo from "../assets/project-2.png";
+import projectOne from "../assets/dgz-bannerfull.png";
+import projectTwo from "../assets/poke.gif";
 import projectThree from "../assets/project-3.png";
 
 const projects = {
@@ -14,7 +14,7 @@ const projects = {
             </>
         ),
         github: "https://github.com/omargonz01/Crypto-Price-Alert-Project",
-        demo: "https://netlify.com",
+        demo: "https://degenzone.onrender.com/",
     },
     2: {
         title: "Your team vs. their team 💢",
@@ -27,7 +27,7 @@ const projects = {
             </>
         ),
         github: "https://github.com/omargonz01/Pokemon-App",
-        demo: "https://netlify.com",
+        demo: "https://pokemon-flask-akd3.onrender.com/",
     },
     3: {
         title: "Minesweeper 💣",
@@ -39,7 +39,7 @@ const projects = {
                 </p>
             </>
         ),
-        github: "https://github.com/omargonz01",
+        github: "https://github.com/omargonz01/minesweeper-game",
         demo: "https://netlify.com",
     },
     4: {
