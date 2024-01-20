@@ -22,7 +22,7 @@ input, #message {
     border-radius: 0.3rem;
     border: 0.07rem solid rbga(255, 255, 255, 0.4);
     outline: none;
-    color: whitesmoke;
+    color: white;
     padding: 0.5rem;
     font-weight: bold;
     font-size: 1rem;
@@ -45,7 +45,7 @@ input {
 }
 
 button {
-    color: whitesmoke;
+    color: white;
     font-size: 1rem;
     font-weight: 600;
     width: 102%;
