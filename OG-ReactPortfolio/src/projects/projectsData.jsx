@@ -1,6 +1,6 @@
 import projectOne from "../assets/dgz-bannerfull.png";
 import projectTwo from "../assets/poke.gif";
-import projectThree from "../assets/project-3.png";
+import projectThree from "../assets/minesweep.png";
 
 const projects = {
     1: {
@@ -40,7 +40,7 @@ const projects = {
             </>
         ),
         github: "https://github.com/omargonz01/minesweeper-game",
-        demo: "https://netlify.com",
+        demo: "https://65a81cf2e1f83e0086bd449c--lucky-blini-6e21d9.netlify.app/",
     },
     4: {
         title: "Stacker (game) 😊",
