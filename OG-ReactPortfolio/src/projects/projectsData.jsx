@@ -1,6 +1,8 @@
 import projectOne from "../assets/dgz-bannerfull.png";
 import projectTwo from "../assets/poke.gif";
-import projectThree from "../assets/minesweep.png";
+import projectThree from "../assets/minesweeper.png";
+import projectFour from "../assets/stacker2.png";
+import projectFive from "../assets/frogger.png";
 
 const projects = {
     1: {
@@ -44,7 +46,7 @@ const projects = {
     },
     4: {
         title: "Stacker (game) 😊",
-        image: projectThree,
+        image: projectFour,
         description: (
             <>
                 <p>
@@ -52,21 +54,21 @@ const projects = {
                 </p>
             </>
         ),
-        github: "https://github.com/omargonz01",
-        demo: "https://netlify.com",
+        github: "https://github.com/omargonz01/stacker-game",
+        demo: "https://snazzy-pasca-9577a8.netlify.app/",
     },
     5: {
         title: "Ducker (Frogger Game) 🦆",
-        image: projectThree,
+        image: projectFive,
         description: (
             <>
                 <p>
-                Re-created another classic game... FROGGER! - (made with JS + HTML + CSS) - Play as a little duck but beware, this duck does not swim and will die if it touches water... yup. he ded for real. Make sure to stay away from cars & buses. Instant death 🦆☠🥚
+                Re-created another classic game... FROGGER! - (made with JS + HTML + CSS) - Play as a little duck and make sure to stay away from cars + buses + water. Instant death 🦆☠🥚
                 </p>
             </>
         ),
-        github: "https://github.com/omargonz01",
-        demo: "https://netlify.com",
+        github: "https://github.com/omargonz01/frogger-game",
+        demo: "https://resilient-shortbread-55a293.netlify.app/",
     },
 };
 
