@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import Nav from "./nav/Nav.jsx";
 import About from "./about/About";
 import Skills from "./skills/Skills";
