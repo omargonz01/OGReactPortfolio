@@ -50,6 +50,9 @@
 .project-item.activeProject:nth-child(5) {
     background: linear-gradient(270deg, #ffffff00, var(--blue) 70%);
 }
+.project-item.activeProject:nth-child(6) {
+    background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
+}
 
 .project-sub-container {
     width: 60%;

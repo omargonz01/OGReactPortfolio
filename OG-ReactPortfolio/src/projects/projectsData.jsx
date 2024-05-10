@@ -3,9 +3,23 @@ import projectTwo from "../assets/poke.gif";
 import projectThree from "../assets/minesweeper.png";
 import projectFour from "../assets/stacker2.png";
 import projectFive from "../assets/frogger.png";
+import projectSix from "../assets/BiteByte.jpg";
 
 const projects = {
     1: {
+        title: "Bite-sized insights, big results! 🍔",
+        image: projectSix,
+        description: (
+            <>
+                <p>
+                Developed a progressive web app powered by AI (BiteByte). Snap a quick pic, or upload an image of your food to get instant macro breakdown analysis of your meal. Next gen nutrition tracking app right here :)
+                </p>
+            </>
+        ),
+        github: "https://github.com/omargonz01/BiteByte",
+        demo: "https://bitebyte.onrender.com/",
+    },
+    2: {
         title: "Real-time Crypto Price Alerts 🚀",
         image: projectOne,
         description: (
@@ -18,7 +32,7 @@ const projects = {
         github: "https://github.com/omargonz01/Crypto-Price-Alert-Project",
         demo: "https://degenzone.onrender.com/",
     },
-    2: {
+    3: {
         title: "Your team vs. their team 💢",
         image: projectTwo,
         description: (
@@ -31,7 +45,7 @@ const projects = {
         github: "https://github.com/omargonz01/Pokemon-App",
         demo: "https://pokemon-flask-akd3.onrender.com/",
     },
-    3: {
+    4: {
         title: "Minesweeper 💣",
         image: projectThree,
         description: (
@@ -44,7 +58,7 @@ const projects = {
         github: "https://github.com/omargonz01/minesweeper-game",
         demo: "https://65a81cf2e1f83e0086bd449c--lucky-blini-6e21d9.netlify.app/",
     },
-    4: {
+    5: {
         title: "Stacker (game) 😊",
         image: projectFour,
         description: (
@@ -57,7 +71,7 @@ const projects = {
         github: "https://github.com/omargonz01/stacker-game",
         demo: "https://snazzy-pasca-9577a8.netlify.app/",
     },
-    5: {
+    6: {
         title: "Ducker (Frogger Game) 🦆",
         image: projectFive,
         description: (
